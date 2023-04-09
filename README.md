@@ -1,5 +1,4 @@
-## Contatos:
-<div>
+## Contatos: <div>
 <a href="https://www.youtube.com/@wanderleipereira8030" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
 <a href="https://instagram.com/wanderlei.rodrigo" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 <a href="https://www.twitch.tv/wander2583" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
@@ -8,8 +7,9 @@
 </div>
 
 # Script para Copiar ou Mover ultilizando Rsync. 
+* Descrição:
 
-Neste script aprimorado, adicionamos uma função `check_rsync` que verifica se o rsync está instalado no sistema. Em seguida, adicionamos uma verificação no início do script para verificar se o rsync está instalado e, caso contrário, perguntamos ao usuário se ele deseja instalar o rsync.
+Neste script, adicionamos uma função `check_rsync` que verifica se o [![rsync](https://rsync.samba.org/)] está instalado no sistema. Em seguida, adicionamos uma verificação no início do script para verificar se o rsync está instalado e, caso contrário, perguntamos ao usuário se ele deseja instalar o rsync.
 
 Se o usuário optar por instalar o rsync, o script verifica o gerenciador de pacotes do sistema e instala o rsync automaticamente. Se o rsync já estiver instalado, o script continua com a execução normal.
 

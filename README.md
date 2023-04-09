@@ -9,7 +9,7 @@
 # Script para Copiar ou Mover ultilizando Rsync. 
 * Descrição:
 
-Neste script, adicionamos uma função `check_rsync` que verifica se o [![rsync](https://rsync.samba.org/)] está instalado no sistema. Em seguida, adicionamos uma verificação no início do script para verificar se o rsync está instalado e, caso contrário, perguntamos ao usuário se ele deseja instalar o rsync.
+Neste script, adicionamos uma função `check_rsync` que verifica se o [rsync](https://rsync.samba.org/) está instalado no sistema. Em seguida, adicionamos uma verificação no início do script para verificar se o rsync está instalado e, caso contrário, perguntamos ao usuário se ele deseja instalar o rsync.
 
 Se o usuário optar por instalar o rsync, o script verifica o gerenciador de pacotes do sistema e instala o rsync automaticamente. Se o rsync já estiver instalado, o script continua com a execução normal.
 

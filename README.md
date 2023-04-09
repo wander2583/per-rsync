@@ -18,3 +18,5 @@ Após a verificação da instalação do rsync, o script continua solicitando ao
 Em seguida, o script usa o comando rsync para copiar ou mover o arquivo, exibindo uma barra de progresso durante o processo. Ao finalizar a operação, o script exibe um resumo do que foi copiado ou movido usando o comando rsync `--stats --human-readable --itemize-changes`.
 
 Dessa forma, este script aprimorado permite que o usuário escolha o local de destino do arquivo, mostra a barra de progresso durante a operação e fornece um resumo ao terminar, além de verificar a instalação do rsync e, se necessário, instalar automaticamente.
+
+Grato.
